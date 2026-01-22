@@ -1,7 +1,10 @@
 There are several steps in git to start in CMD 
 1) > git init (to initalize the git repository in this folder.)
+    > ls -a (check the hidden files)
 2) > git status (to check the status of the repository.)
 3) > git add file.name (to add a particular file in a staging area)
     > git add . (by using "." it means add all the files present in this particular directory)
 4) > git commit -m "Comment on this particular commit" (to commit the changes in the repository a safe point) 
 5) > git log (check all the commit history of the repository)
+6) > git checkout File.name (rolleback to a previous commit)
+7) > git diff File.name (shows the changes made in a particular file before commiting used to check)
