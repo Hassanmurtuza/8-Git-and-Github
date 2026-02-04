@@ -17,5 +17,32 @@ There are several steps in git to start in CMD
                     Remote Repository:
 8) > git remote add <name> <url_repository> 
     > git remote add origin http://hassanmurtuza5@gmail.com
-9) > git push -u <remote name> <branch name>
+9) > git push -u <remote_name> <branch_name>
     > git push -u origin main 
+
+                    GitIgnore:
+10) > touch .gitignore (create a folder)
+11) > ls -a (check the hidden files)
+12) > code .gitignore (open)
+13) > .DS_Store, secrets.txt (inside specify the files name which you want to ignore)
+14) > Example- in node.js project folder Add this - https://github.com/github/gitignore/blob/main/Node.gitignore, 
+copy from this link and past inside the .gitignore file
+
+                    Clone:
+15) > git clone <URL>
+        Ex: > git clone https://github.com/hassanmurtuza5
+16) > cd Folder_name
+17) > npm install
+18) > Read me file commands to be followed
+
+                    Branching:
+10) > git branch <branch_name>
+        Ex: > git branch learnBranch
+        > git branch (shows the branches which are present)
+11) > git checkout <branch_name> (move to the particular branch)
+        Ex: > git checkout learnBranch
+
+                    Merging:
+12) > git checkout main (move to the main branch before merging)
+13) > git merge <branch_name>
+      Ex: >git merge learnBranch
